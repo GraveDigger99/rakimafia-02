@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Shop</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240316150958">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="50" data-scroll-show="1000" class="header">
+			<div class="header__container">
+				<a href="index.html" class="header__logo">
+					<img src="img/logo/logo.svg" alt="icon: Logo">
+				</a>
+				<div data-da=".header__actions,767.98,last" class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li data-spollers class="spollers">
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">Ассортимент</button>
+									<div class="spollers__body">
+										<ul class="spollers__list">
+											<li>
+												<a href="#">Пункт №1</a>
+											</li>
+											<li>
+												<a href="#">Пункт №2</a>
+											</li>
+											<li>
+												<a href="#">Пункт №3</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li class="menu__item"><a href="#" class="menu__link">О Rakimafia</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Статьи</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions">
+					<ul class="header__social">
+						<li>
+							<a href="#">
+								<span aria-label="icon: telegram" class="social-icon" style="--icon: url(img/icons/telegram.svg)"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span aria-label="icon: whatsapp" class="social-icon" style="--icon: url(img/icons/whatsapp.svg)"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span aria-label="icon: instagram" class="social-icon" style="--icon: url(img/icons/instagram.svg)"></span>
+							</a>
+						</li>
+					</ul>
+					<a href="#" class="header__shopping-cart">
+						<span aria-label="icon: shopping-cart" class="shopping-cart-icon" style="--icon: url(img/icons/shopping-cart.svg)"></span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<main class="page page_shop">
+			<section data-fullscreen class="hero hero_shop">
+				<div class="hero__container">
+					<div class="hero__content">
+						<h1 class="hero__title title title_desktop">Раки, крабы, икра и креветки <span>премиального</span>
+							качества</h1>
+						<h1 class="hero__title title title_mobile">Морепродукты премиального качества</h1>
+						<p class="hero__descr">С доставкой по Москве и московской области</p>
+						<p class="hero__text">Lorem ipsum dolor sit amet consectetur. Augue pharetra quisque a consequat. Ut
+							facilisis phasellus quis</p>
+						<div class="hero__actions">
+							<a href="#" class="hero__assortment-button assortment-button">
+								<span aria-label="icon: bag" class="bag-icon" style="--icon: url(img/icons/business-cart.svg)"></span>
+								<span>К ассортименту</span>
+							</a>
+							<a href="#" class="hero__about-btn about-btn">О Rakimafia</a>
+						</div>
+					</div>
+					<div class="hero__image">
+						<picture><source srcset="img/hero/image.webp" type="image/webp"><img src="img/hero/image.png" alt="image"></picture>
+					</div>
+				</div>
+			</section>
+			<section class="products products_shop">
+				<div class="products__container">
+					<aside class="products__aside aside-products">
+						<div data-spollers="768,max" class="aside-products__spollers">
+							<div class="aside-products__item">
+								<button type="button" data-spoller class="aside-products__title">
+									<div>
+										<span aria-label="icon: grid-tablet" class="spollers-icon" style="--icon: url(img/icons/grid-tablet.svg)"></span>
+										<span>Категории</span>
+									</div>
+									<span aria-label="icon: grid-tablet" class="spollers-arrow" style="--icon: url(img/icons/arrow-down-thin.svg)"></span>
+								</button>
+								<div class="aside-products__body">
+									<ul class="aside-products__list">
+										<li><a href="#">Весь ассортимент</a></li>
+										<li><a href="#">Креветки</a></li>
+										<li><a href="#">Икра</a></li>
+										<li>
+											<div data-spollers class="spoller-row">
+												<div class="spoller-row__item">
+													<button type="button" data-spoller class="spoller-row__title">Раки</button>
+													<div class="spoller-row__body">
+														<ul class="spoller-row__list">
+															<li><a href="#">Варёные</a></li>
+															<li><a href="#">Живые</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li><a href="#">Крабы</a></li>
+										<li><a href="#">Мидии</a></li>
+										<li><a href="#">Рыба</a></li>
+										<li><a href="#">Специи</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="aside-products__item">
+								<button type="button" data-spoller class="aside-products__title">
+									<div>
+										<span aria-label="icon: grid-tablet" class="spollers-icon" style="--icon: url(img/icons/alert.svg)"></span>
+										<span>Новинки</span>
+									</div>
+									<span aria-label="icon: grid-tablet" class="spollers-arrow" style="--icon: url(img/icons/arrow-down-thin.svg)"></span>
+								</button>
+
+								<div class="aside-products__body">
+									<ul class="aside-products__list">
+										<li><a href="#">Креветки</a></li>
+										<li><a href="#">Икра</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="aside-products__item">
+								<button type="button" data-spoller class="aside-products__title">
+									<div>
+										<span aria-label="icon: grid-tablet" class="spollers-icon" style="--icon: url(img/icons/percent.svg)"></span>
+										<span>Скидки</span>
+									</div>
+									<span aria-label="icon: grid-tablet" class="spollers-arrow" style="--icon: url(img/icons/arrow-down-thin.svg)"></span>
+								</button>
+
+								<div class="aside-products__body">
+									<ul class="aside-products__list">
+										<li><a href="#">Креветки</a></li>
+										<li><a href="#">Икра</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</aside>
+					<div class="products__content">
+						<div data-da=".aside-products,767.98,first" class="filter-block">
+							<ul class="filter-block__list">
+								<li><a href="#">Меню</a></li>
+								<li><a href="#">Весь ассортимент</a></li>
+							</ul>
+							<div class="filter-block__sort">
+								<div class="filter-block__label">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M8.7299 10.1069L8.72989 10.1069L3.75 6.25942V5.25H20.25V6.25942L15.2701 10.1069C14.6267 10.604 14.25 11.3711 14.25 12.1842V16.6094L9.75 18.8594V12.1842C9.75 11.3711 9.37326 10.604 8.7299 10.1069ZM1.5 3.75V7.36437L7.35427 11.8874C7.44618 11.9584 7.5 12.068 7.5 12.1842V19.9844V20.0544V21.1432V21.8932C7.5 22.172 7.79337 22.3533 8.0427 22.2286L8.71353 21.8932L9.68744 21.4063L9.75 21.375L15.2562 18.6219C16.0185 18.2408 16.5 17.4617 16.5 16.6094V12.1842C16.5 12.068 16.5538 11.9584 16.6457 11.8874L22.5 7.36437V3.75C22.5 3.33579 22.1642 3 21.75 3H2.25C1.83579 3 1.5 3.33579 1.5 3.75ZM18.7956 22.4958L20.5994 20.692L22.4052 22.498L23.9963 20.9071L22.1904 19.101L23.9958 17.2956L22.4048 15.7046L20.5994 17.51L18.7942 15.7046L17.2031 17.2956L19.0084 19.101L17.2046 20.9048L18.7956 22.4958Z" fill="#2E3840" />
+									</svg>
+									<span>Сортировка</span>
+								</div>
+								<button class="filter-block__button">Сначала дешевые</button>
+							</div>
+						</div>
+						<div class="products__row-content row-content">
+							<h2 class="row-content__subtitle">Раки</h2>
+							<div class="row-content__items">
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/01.webp" type="image/webp"><img src="img/products/1/01.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+									</div>
+								</div>
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/01.webp" type="image/webp"><img src="img/products/1/01.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+									</div>
+								</div>
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/01.webp" type="image/webp"><img src="img/products/1/01.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+									</div>
+								</div>
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/01.webp" type="image/webp"><img src="img/products/1/01.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+									</div>
+								</div>
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/01.webp" type="image/webp"><img src="img/products/1/01.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="products__row-content row-content">
+							<h2 class="row-content__subtitle">Икра</h2>
+							<div class="row-content__items">
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/02.webp" type="image/webp"><img src="img/products/1/02.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+									</div>
+								</div>
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/02.webp" type="image/webp"><img src="img/products/1/02.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+									</div>
+								</div>
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/02.webp" type="image/webp"><img src="img/products/1/02.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+									</div>
+								</div>
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/02.webp" type="image/webp"><img src="img/products/1/02.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="products__row-content row-content">
+							<h2 class="row-content__subtitle">Креветки</h2>
+							<div class="row-content__items">
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/03.webp" type="image/webp"><img src="img/products/1/03.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+									</div>
+								</div>
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/03.webp" type="image/webp"><img src="img/products/1/03.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+									</div>
+								</div>
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/03.webp" type="image/webp"><img src="img/products/1/03.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="products__row-content row-content">
+							<h2 class="row-content__subtitle">Рыба</h2>
+							<div class="row-content__items">
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/04.webp" type="image/webp"><img src="img/products/1/04.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+									</div>
+								</div>
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/04.webp" type="image/webp"><img src="img/products/1/04.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+									</div>
+								</div>
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/04.webp" type="image/webp"><img src="img/products/1/04.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="products__row-content row-content">
+							<h2 class="row-content__subtitle">Мидии</h2>
+							<div class="row-content__items">
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/05.webp" type="image/webp"><img src="img/products/1/05.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="products__row-content row-content">
+							<h2 class="row-content__subtitle">Крабы</h2>
+							<div class="row-content__items">
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/06.webp" type="image/webp"><img src="img/products/1/06.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+									</div>
+								</div>
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/06.webp" type="image/webp"><img src="img/products/1/06.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="products__row-content row-content">
+							<h2 class="row-content__subtitle">Лангустины</h2>
+							<div class="row-content__items">
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/07.webp" type="image/webp"><img src="img/products/1/07.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="products__row-content row-content">
+							<h2 class="row-content__subtitle">Специи</h2>
+							<div class="row-content__items">
+								<div class="row-content__item item-content">
+									<div class="item-content__image">
+										<picture><source srcset="img/products/1/08.webp" type="image/webp"><img src="img/products/1/08.jpg" alt="image"></picture>
+									</div>
+									<div class="item-content__name">Название товара</div>
+									<div class="item-content__bottom">
+										<span class="item-content__price">1490 руб.</span>
+										<div data-quantity class="item-content__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<a href="#" class="item-content__choose-btn choose-btn">Выбрать</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about-us about-us_shop">
+				<div class="about-us__container">
+					<div class="about-us__header">
+						<div class="about-us__topic">О нас</div>
+						<h2 class="about-us__subtitle">Что такое ракимафия?</h2>
+						<p class="about-us__text">
+							"Ракимафия" - это свежие и вкусные раки, икра, крабы и креветки! А так же, специи и другие
+							морепродукты, высочайшего
+							уровня качества.
+						</p>
+					</div>
+					<div class="about-us__items">
+						<a href="#" class="about-us__item">
+							<div class="about-us__name">
+								Креветки
+							</div>
+							<div class="about-us__image">
+								<span aria-label="icon: shrimps" class="about-us-icon" style="--icon: url(img/icons/shrimps.svg)"></span>
+							</div>
+						</a>
+						<a href="#" class="about-us__item">
+							<div class="about-us__name">
+								Икра
+							</div>
+							<div class="about-us__image">
+								<svg width="114" height="94" viewBox="0 0 114 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M65.365 8.48681C65.365 8.48681 82.9413 20.5477 71.2952 35.2892C64.4217 43.9896 50.4358 42.067 43.479 34.7873C38.6486 29.7326 37.2072 22.0951 43.8888 13.6376C49.3752 6.69302 57.9584 4.18914 65.365 8.48681Z" fill="#0E1117" />
+									<path d="M50.5864 20.0983C52.0114 17.779 53.5189 11.9147 59.549 13.6376M71.2952 35.2892C82.9413 20.5477 65.365 8.48681 65.365 8.48681C57.9584 4.18914 49.3752 6.69301 43.8888 13.6376C37.2072 22.0951 38.6486 29.7326 43.479 34.7873C50.4358 42.067 64.4217 43.9896 71.2952 35.2892Z" stroke="#445371" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M32.1581 31.5339C32.1581 31.5339 53.0198 27.154 55.6361 45.7577C57.1803 56.7375 46.1299 65.5236 36.0607 65.5262C29.069 65.5281 22.5504 61.2952 21.0494 50.6218C19.8168 41.8578 23.9346 33.9215 32.1581 31.5339Z" fill="#0E1117" stroke="#445371" stroke-width="4" stroke-linejoin="round" />
+									<path d="M68.7714 31.5339C68.7714 31.5339 89.6331 27.154 92.2494 45.7577C93.7935 56.7375 82.7432 65.5236 72.6739 65.5262C65.6823 65.5281 59.1637 61.2952 57.6626 50.6218C56.4301 41.8578 60.5479 33.9215 68.7714 31.5339Z" fill="#0E1117" stroke="#445371" stroke-width="4" stroke-linejoin="round" />
+									<path d="M13.9745 57.257C13.9745 57.257 34.8362 52.8772 37.4525 71.4809C38.9967 82.4607 27.9463 91.2467 17.8771 91.2494C10.8854 91.2512 4.36682 87.0184 2.86577 76.345C1.63324 67.581 5.75098 59.6446 13.9745 57.257Z" fill="#0E1117" />
+									<path d="M13.9745 72.6957C14.4495 69.8242 16.907 64.512 22.9371 66.2349M37.4525 71.4809C34.8362 52.8772 13.9745 57.257 13.9745 57.257C5.75098 59.6446 1.63324 67.581 2.86577 76.345C4.36682 87.0184 10.8854 91.2512 17.8771 91.2494C27.9463 91.2467 38.9967 82.4607 37.4525 71.4809Z" stroke="#445371" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M51.5409 57.257C51.5409 57.257 72.4026 52.8772 75.0189 71.4809C76.5631 82.4607 65.5127 91.2467 55.4435 91.2494C48.4518 91.2512 41.9332 87.0184 40.4322 76.345C39.1996 67.581 43.3174 59.6446 51.5409 57.257Z" fill="#0E1117" />
+									<path d="M48.7796 71.4809C49.2546 68.6094 51.7121 63.2972 57.7422 65.0201M75.0189 71.4809C72.4026 52.8772 51.5409 57.257 51.5409 57.257C43.3174 59.6446 39.1996 67.581 40.4322 76.345C41.9332 87.0184 48.4518 91.2512 55.4435 91.2494C65.5127 91.2467 76.5631 82.4607 75.0189 71.4809Z" stroke="#445371" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M88.1542 57.257C88.1542 57.257 109.016 52.8772 111.632 71.4809C113.176 82.4607 102.126 91.2467 92.0567 91.2494C85.0651 91.2512 78.5465 87.0184 77.0455 76.345C75.8129 67.581 79.9307 59.6446 88.1542 57.257Z" fill="#0E1117" stroke="#445371" stroke-width="4" stroke-linejoin="round" />
+								</svg>
+
+							</div>
+						</a>
+						<a href="#" class="about-us__item">
+							<div class="about-us__name">
+								Раки
+							</div>
+							<div class="about-us__image">
+								<span aria-label="icon: shrimps" class="about-us-icon" style="--icon: url(img/icons/cancers.svg)"></span>
+							</div>
+						</a>
+						<a href="#" class="about-us__item">
+							<div class="about-us__name">
+								Крабы
+							</div>
+							<div class="about-us__image">
+								<span aria-label="icon: shrimps" class="about-us-icon" style="--icon: url(img/icons/crabs.svg)"></span>
+							</div>
+						</a>
+					</div>
+					<div class="about-us__actions">
+						<a href="#" class="about-us__button button button_red">К ассортименту</a>
+						<a href="#" class="about-us__button button button_transparent">Наши статьи</a>
+					</div>
+			</section>
+			<div class="notification-block">
+				<div class="notification-block__icon">
+					<img src="img/notifications/icon.svg" alt="icon">
+				</div>
+				<div class="notification-block__body">
+					<div class="notification-block__title">Товар добавлен в корзину</div>
+					<a href="#" class="notification-block__link">Перейти в корзину</a>
+					<a href="#" class="notification-block__shopping">
+						<span aria-label="icon: shopping-cart" class="shopping-icon-notification" style="--icon: url(img/icons/shopping-cart.svg)"></span>
+						Корзина
+					</a>
+				</div>
+				<button type="button" class="notification-block__close">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M10.9399 12.0006L6.84839 16.0921L7.90905 17.1527L12.0005 13.0612L16.092 17.1527L17.1527 16.0921L13.0612 12.0006L17.1527 7.90905L16.092 6.84839L12.0005 10.9399L7.90906 6.84839L6.8484 7.90905L10.9399 12.0006Z" fill="#445371" />
+					</svg>
+				</button>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__menu">
+					<ul class="footer__list">
+						<li>
+							<a href="#" class="footer__link">Живые раки</a>
+						</li>
+						<li>
+							<a href="#" class="footer__link">Вареные раки</a>
+						</li>
+						<li>
+							<a href="#" class="footer__link">Морепродукты</a>
+						</li>
+						<li>
+							<a href="#" class="footer__link">Красная икра</a>
+						</li>
+						<li>
+							<a href="#" class="footer__link">Оплата и доставка</a>
+						</li>
+						<li>
+							<a href="#" class="footer__link">Статьи</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__info">
+						<span class="footer__name">Задизайнено и разработано</span>
+						<a href="#" class="footer__link">
+							<span aria-label="logo: celicom" class="celicom-logo" style="--icon: url(img/logo/celicom.svg)"></span>
+						</a>
+					</div>
+					<ul class="copywrite">
+						<li>
+							<a href="#">Политика конфиденциальности</a>
+						</li>
+						<li>
+							<a href="#">Пользователськое соглашение</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20240316150958"></script>
+</body>
+
+</html>
